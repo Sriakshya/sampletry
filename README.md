@@ -5,9 +5,9 @@ Share data not gateway to data breaches!!!
    The receiver is required to capture a live photo of himself (option to upload photo from gallery is not provided to avoid insider attacks- as a common acquaintance of sender and receiver may also possess the photo and credentialsof thereceiver).The encrypted photo sent by the sender isdecrypted at thereceiver's end,it is decrypted and compared with the photo captured bythe receiver,if the same the file is decrypted.
  
  Sender side
-  a.Uploading file and image
-  b.Encrypt image
-  c.Encrypt file
+  * Uploading file and image
+  * Encrypt image
+  * Encrypt file
   d.Select receiver and send files
   
 Receiver side
