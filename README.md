@@ -8,12 +8,12 @@ Share data not gateway to data breaches!!!
   * Uploading file and image
   * Encrypt image
   * Encrypt file
-  d.Select receiver and send files
+  * Select receiver and send files
   
 Receiver side
- a.Select sender and receive files
- b.Decrypt image
- c.Capture user's image
- d.Validate
- e.Decrypt file
+ * Select sender and receive files
+ * Decrypt image
+ * Capture user's image
+ * Validate
+ * Decrypt file
   
