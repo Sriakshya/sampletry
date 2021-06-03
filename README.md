@@ -1,19 +1,21 @@
 # SafeShare
 Share data not gateway to data breaches!!!
  
-   An Androidbased mobile application that facilitates secure filetransfer via wifi.We guarantee security at end points with the application of face recognition to unlock files.The sender is required to upload aphoto of the receiver along with the file to be sent.Both the image and the file are encrypted using two different keys and two different encryption algorithms and both these encrypted files are sent to the receiver.
-   The receiver is required to capture a live photo of himself (option to upload photo from gallery is not provided to avoid insider attacks- as a common acquaintance of sender and receiver may also possess the photo and credentialsof thereceiver).The encrypted photo sent by the sender isdecrypted at thereceiver's end,it is decrypted and compared with the photo captured bythe receiver,if the same the file is decrypted.
+   An Android based mobile application that facilitates secure filetransfer via wifi. The sender is required to upload a photo along with the file to be sent. The user should also provide a password which acts as the key for encryption of the image.  It encrypts data in file using password as key and AES algorithm in CBC mode and Image is encrypted using XOR method and sent. The file is also encrypted and the encrypted image and files are sent to the chosen receiver.
+   The receiver receives the file enteres the password. Image uploaded by sender and receiver are matched,if that is same and password is also correct and decryption is done.
  
  Sender side
-  * Uploading file and image
+  * Uploading file 
+  * Using image which is a part of two factor authentication
+  * Get password from the user which is the key
   * Encrypt image
   * Encrypt file
-  * Select receiver and send files
+  * Select receiver 
+  * Send encrypted files and image 
   
 Receiver side
- * Select sender and receive files
- * Decrypt image
- * Capture user's image
+ * Receive files from the sender
+ * Get password for authentication
  * Validate
- * Decrypt file
+
   
